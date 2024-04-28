@@ -327,6 +327,7 @@ body {
   margin-left: 16px;
   margin-bottom: 32px;
   margin-top: 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link {
   display: flex;
@@ -347,7 +348,6 @@ body {
 .social-list-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon {
@@ -401,6 +401,11 @@ body {
 
 .info-portfolio:hover .text-portfolio-overlay {
   transform: translateY(0%);
+}
+
+.picture-portfolio {
+  position: relative;
+  overflow: hidden;
 }
 
 .portfolio-overlay {
