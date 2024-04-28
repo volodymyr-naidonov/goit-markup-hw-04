@@ -340,7 +340,7 @@ body {
 
 .social-list-link:hover,
 .social-list-link:focus {
-  stroke: #404bbf;
+  background-color: #404bbf;
 }
 
 .social-list-item {
