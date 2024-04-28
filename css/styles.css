@@ -120,6 +120,10 @@ body {
   color: #404bbf;
 }
 
+.menu .studio {
+  color: #404bbf;
+}
+
 .page-adress {
   font-style: normal;
   padding-top: 24px;
@@ -331,6 +335,7 @@ body {
 
 .info-portfolio {
   position: relative;
+  overflow: hidden;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -338,7 +343,6 @@ body {
   color: #434455;
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: hidde;
 }
 
 .info-portfolio:hover {
@@ -426,4 +430,7 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.container {
 }
